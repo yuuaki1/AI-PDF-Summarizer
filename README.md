@@ -67,13 +67,13 @@ npm run dev
   
 - POST ```/api/chat```
 ### Request Body:
-```
+```json
 {
   "message": "Your text here"
 }
 ```
 ### Response:
-```
+```json
 {
   "response": "Summarized text"
 }
